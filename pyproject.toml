@@ -1,0 +1,23 @@
+[project]
+name = "file-processor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bigframes>=2.15.0",
+    "debugpy>=1.8.16",
+    "functions-framework==3.4.0",
+    "google-auth>=2.40.3",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "google-cloud-bigquery>=3.35.1",
+    "google-cloud-iam>=2.19.1",
+    "google-cloud-storage==2.10.0",
+    "grpcio>=1.74.0",
+    "grpcio-status>=1.74.0",
+    "pandas-gbq>=0.29.2",
+    "pyarrow>=21.0.0",
+    "pytest>=8.4.1",
+    "pytest-mock>=3.14.1",
+]

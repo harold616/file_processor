@@ -1,0 +1,13 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "name": "BigQueryLearningProject",
+            "authenticator": "CLI",
+            "location": "us",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "projectId": "my-cf-learning"
+        }
+    ]
+}
